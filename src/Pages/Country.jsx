@@ -2,7 +2,7 @@ import { useEffect, useState, useTransition } from "react";
 import { getCountryData } from "../api/postApi";
 import CountryCard from "./CountryCard";
 import Loader from "../Components/Loader";
-import SearchFilter from "../Components/searchFilter";
+import SearchFilter from "../Components/SearchFilter";
 import "./country.css"; // Create a separate CSS file for Country.jsx
 
 function Country(){
