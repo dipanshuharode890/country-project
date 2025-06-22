@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1400000000,
+    "interestingFact": "India is the world’s largest democracy."
+  },
+  {
+    "id": 2,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38000000,
+    "interestingFact": "Canada has the longest coastline in the world."
+  },
+  {
+    "id": 3,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interestingFact": "Japan is made up of over 6,800 islands."
+  },
+  {
+    "id": 4,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 213000000,
+    "interestingFact": "Brazil is home to the Amazon Rainforest."
+  },
+  {
+    "id": 5,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 25700000,
+    "interestingFact": "Australia is the only country that is also a continent."
+  },
+  {
+    "id": 6,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 109000000,
+    "interestingFact": "Ancient Egypt is one of the world's oldest civilizations."
+  },
+  {
+    "id": 7,
+    "countryName": "Germany",
+    "capital": "Berlin",
+    "population": 83000000,
+    "interestingFact": "Germany is known for its engineering and beer culture."
+  },
+  {
+    "id": 8,
+    "countryName": "South Africa",
+    "capital": "Pretoria (administrative)",
+    "population": 60000000,
+    "interestingFact": "South Africa has three capital cities."
+  },
+  {
+    "id": 9,
+    "countryName": "Norway",
+    "capital": "Oslo",
+    "population": 5400000,
+    "interestingFact": "Norway is known for its fjords and natural beauty."
+  },
+  {
+    "id": 10,
+    "countryName": "Mexico",
+    "capital": "Mexico City",
+    "population": 126000000,
+    "interestingFact": "Mexico introduced chocolate to the world."
+  }
+]

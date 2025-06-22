@@ -1,0 +1,92 @@
+.country-section {
+    padding: 1rem; /* Add padding to the section */
+}
+
+.country-grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /* Flexible grid */
+    gap: 1rem;
+    list-style: none; /* Remove list bullets */
+    margin: 0;
+}
+
+/* You might need to adjust the styles below depending on your design */
+
+/* Styles from header.css that are specific to the country card */
+.country-card-item {
+    max-width: 100%; /* Take full width */
+    margin: 0.5rem; /* Reduced margin */
+}
+
+.country-card .container-card {
+    border-radius: 0.75rem; /* Reduced border radius */
+    padding: 0.5rem; /* Reduced padding */
+}
+
+.country-flag {
+    height: 23vh; /* Reduced height */
+    max-width: 16vw;
+    border-radius: 0.5rem; /* Reduced border radius */
+    margin-bottom: 0.3rem; /* Reduced margin */
+}
+
+.country-card .card-title {
+    font-size: 1rem; /* Reduced font size */
+    padding-bottom: 0.2rem; /* Reduced padding */
+    margin-bottom: 0.2rem; /* Reduced margin */
+    line-height: 1.1;
+}
+
+.country-card .card-description {
+    font-size: 0.8rem; /* Reduced font size */
+}
+
+.country-card .country-button {
+    padding: 0.3em 0.8em; /* Reduced padding */
+    font-size: 0.7rem; /* Reduced font size */
+    margin-top: 0.3rem; /* Reduced margin */
+    border-radius: 0.3rem; /* Reduced border radius */
+}
+
+/* Responsive Styles (Further Adjustments) */
+
+@media (min-width: 769px) {
+    .country-grid {
+        padding: 2rem 8rem;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    .country-card-item {
+        max-width: 17rem;
+        margin: 1rem;
+    }
+
+    .country-card .container-card {
+        border-radius: 1.5rem;
+        padding: 1rem;
+    }
+
+    .country-flag {
+        height: 8rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .country-card .card-title {
+        font-size: 1.2rem;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .country-card .card-description {
+        font-size: 1rem;
+    }
+
+    .country-card .country-button {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        border-radius: 0.5rem;
+    }
+}

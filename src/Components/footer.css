@@ -1,0 +1,139 @@
+.footer-section {
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #1d1c1c;
+    color: white;
+}
+
+.container.grid-three-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.footer-contact {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.icon {
+    color: #252590;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.footer-contact-text p {
+    font-size: 1rem;
+    color: #c1c7cc;
+    margin: 0.5rem 0;
+}
+
+.footer-contact-text p:first-child {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* Responsive adjustments for the top section (contact info) */
+@media (max-width: 768px) {
+    .container.grid-three-cols {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+/* --- Revised Styling for the Bottom Section --- */
+
+.bottom-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2a2a;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    flex-direction: column; /* Stack on smaller screens */
+}
+
+.copyright {
+    margin-bottom: 1rem; /* Increased margin for spacing */
+    text-align: center;
+}
+
+.copyright h4 {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0;
+    color: white;
+    line-height: 1.4; /* Add line height for better spacing */
+}
+
+.copyright h4 a {
+    text-decoration: none;
+    color: rgb(82 82 213);
+}
+
+.footer-navigation {
+    display: flex;
+     /* Stack links vertically */
+    align-items: center; /* Center links */
+    gap: 1rem; /* Add gap between links */
+    width: 100%; /* Take full width */
+}
+
+.footer-navigation h1 {
+    padding: 0.75rem;
+    margin: 0;
+    font-size: 1.1rem; /* Increased font size for links */
+    color: #c1c7cc;
+    width: 100%; /* Full width for each link */
+    text-align: center; /* Center link text */
+}
+
+.footer-navigation h1:hover {
+    color: white;
+}
+
+/* --- End of Revised Bottom Section Styling --- */
+
+/* Media query for larger screens */
+@media (min-width: 769px) {
+    .bottom-footer {
+        flex-direction: row; /* Row layout on larger screens */
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+    }
+
+    .copyright {
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .footer-navigation {
+        flex-direction: row; /* Row layout for links */
+        gap: 2rem;
+        align-items: center; /* Center vertically */
+        width: auto; /* Reset width */
+    }
+
+    .footer-navigation h1 {
+        font-size: 0.9rem;
+        width: auto; /* Reset width */
+        text-align: left; /* Left align on desktop */
+    }
+}
+
+@media (min-width: 1024px) {
+    .bottom-footer {
+        padding: 1.5rem 10rem;
+    }
+
+    .copyright h4 {
+        font-size: 1rem;
+    }
+
+    .footer-navigation h1 {
+        font-size: 0.9rem;
+    }
+}

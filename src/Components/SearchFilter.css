@@ -1,0 +1,26 @@
+.search-filter-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-input {
+  padding: 10px;
+  color: white;
+  background: transparent;
+  border: 1px solid cornflowerblue;
+  border-radius: 5rem;
+  flex: 1;
+  min-width: 100px;
+}
+
+.filter-select {
+  background: transparent;
+  color: #e40e0e;
+  height: 2rem;
+  min-width: 8rem;
+}
+
+/* You can add more styles here if needed */

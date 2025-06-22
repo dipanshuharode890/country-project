@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "MdPlace",
+        "title": "Find Us",
+        "details": "Dewas Madhya Pradesh"
+    },
+    {
+        "icon": "IoCallSharp",
+        "title": "Contact Us",
+        "details": "9876543210"
+    },
+    {
+        "icon": "TbMailPlus",
+        "title": "Mail Us",
+        "details": "country@project.com"
+    }
+]
